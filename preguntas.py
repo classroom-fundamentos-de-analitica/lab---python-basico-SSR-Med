@@ -298,7 +298,7 @@ def pregunta_09():
     }
 
     """
-    return sorted(data.items())
+    return dict(sorted(data.items()))
 
 
 def pregunta_10():
@@ -358,7 +358,7 @@ def pregunta_11():
 
 
     """
-    return sorted(data.items())
+    return dict(sorted(data.items()))
 
 
 def pregunta_12():
@@ -388,4 +388,4 @@ def pregunta_12():
     }
 
     """
-    return sorted(data.items())
+    return dict(sorted(data.items()))
